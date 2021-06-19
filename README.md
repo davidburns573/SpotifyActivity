@@ -7,5 +7,5 @@ Unfortunately, this feature is not available on Spotify's mobile app on Android 
 plan to change this anytime soon. 
 
 ## Why?
-Since I want to be able to stalk my friends, I created this app to allow users to create spotify web requests through their phones. With a couple extra steps, 
-you can get access to friend activity data.
+Since I want to be able to stalk my friends! I created this app to allow users to create spotify web requests through their phones. With a couple extra steps, 
+you can get access to friend activity data, just like you would through the desktop client.
