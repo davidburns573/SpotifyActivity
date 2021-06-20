@@ -3,21 +3,15 @@ import PropTypes from 'prop-types';
 
 import {Text, StyleSheet, TouchableOpacity} from 'react-native';
 
-class FriendTile extends React.Component {
+class FriendDetail extends React.Component {
   static propTypes = {
     friend: PropTypes.object.isRequired,
-    onItemPress: PropTypes.func.isRequired,
-    index: PropTypes.object.isRequired,
   }
 
   render() {
-    const { friend, onItemPress, index } = this.props;
+    const { friend } = this.props;
     return (
-      <TouchableOpacity style={styles.container} onPress={() => onItemPress(index)}>
-        <Text style={styles.userName}>{friend.user.name}</Text>
-        <Text numberOfLines={1} style={styles.songName}>{friend.track.name}</Text>
-        <Text numberOfLines={1} style={styles.albumName}>{friend.track.artist.name}</Text>
-      </TouchableOpacity>
+      <Text>THIS WORKS</Text>
     );
   }
 }
@@ -54,4 +48,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default FriendTile;
+export default FriendDetail;

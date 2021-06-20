@@ -10,8 +10,16 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "axios": "^0.21.1",
     "react": "17.0.1",
+    "react-cookie": "^4.0.3",
     "react-native": "0.64.2",
+    "react-native-cookie": "^0.3.0",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.4.0",
     "react-spotify-api": "^3.0.0",
     "spotify-buddylist": "^1.0.0",
     "spotify-web-api-node": "^5.0.2"
