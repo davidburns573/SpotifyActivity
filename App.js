@@ -11,7 +11,6 @@ import {
   FlatList,
   Linking,
   TextInput,
-  div,
 } from 'react-native';
 import api_calls from './src/api_calls';
 import FriendTile from './src/FriendTile';
@@ -106,13 +105,13 @@ const styles = StyleSheet.create({
   },
   buttonP: {
     marginBottom: 0,
-    padding: 18,
+    padding: 16,
     backgroundColor: '#36bf41',
     color: '#000000',
     position: 'absolute',
     bottom: 0,
     width: '100%'
-    },
+  },
   sectionDescription: {
     marginTop: 20,
     fontSize: 18,
@@ -133,6 +132,7 @@ const styles = StyleSheet.create({
   buttonText: {
     textAlign: 'center',
     letterSpacing: 2,
+    fontSize: 18,
   },
 });
 

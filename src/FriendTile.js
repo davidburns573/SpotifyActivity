@@ -7,7 +7,7 @@ class FriendTile extends React.Component {
   static propTypes = {
     friend: PropTypes.object.isRequired,
     onItemPress: PropTypes.func.isRequired,
-    index: PropTypes.object.isRequired,
+    index: PropTypes.number.isRequired,
   }
 
   render() {
